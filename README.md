@@ -1,12 +1,11 @@
 # David Ajudua
 
-**I build the software that runs my businesses — then run the businesses on it.**
+**I build the software that runs my businesses, then run the businesses on it.**
 
-Founder and engineer. I design, ship, and operate production systems end-to-end: the
-backend services, the payment and operations tooling, the deploy pipeline, and the day-to-day
-program management that keeps it all running. I care less about code as a craft object and more
-about code as **leverage** — the smallest reliable system that turns a manual, error-prone process
-into something that runs itself.
+I'm a founder and engineer. I design and operate production systems start to finish: the backend
+services, the payments and operations tooling, the deploy pipeline, and the daily work of keeping all
+of it running. Code, to me, is mostly leverage. The goal is the smallest reliable system that takes a
+manual, error-prone job and makes it run itself.
 
 CS @ Howard University (Class of 2029) · based in the U.S.
 
@@ -14,23 +13,21 @@ CS @ Howard University (Class of 2029) · based in the U.S.
 
 ### What I build
 
-- **Operations automation** — production services that take real, money-touching workflows
-  (issuing and distributing cards, processing payouts, fetching verification codes) and make them
-  one-click and auditable.
-- **Internal platforms** — a shared-core service fleet where each new tool reuses the same router,
-  database, logging, and process-management layer, so shipping the *next* automation is hours, not days.
-- **Developer & systems tooling** — idempotent automation with full rollback, structured logging,
-  and "preview-before-apply" safety on anything that changes a live system.
+Most of it is operations automation: production services that take a real, money-touching job
+(issuing and distributing cards, tracking revenue, fetching verification codes) and turn it into one
+click with a full audit trail. Under that sits a shared core every new bot plugs into for routing,
+storage, logging, and process management, so the next tool is a few hours of work instead of a few
+days. The rest is developer and systems tooling, where I lean on idempotency, full rollback,
+structured logs, and a preview-before-apply step before anything touches a live machine.
 
-### How I work (the program-management half)
+### How I work
 
-- **Ship in tight loops.** Staged deployment — feature branch → staging → live — with code review
-  as a merge gate. Money-touching logic gets tests *first*.
-- **Manage risk explicitly.** Idempotent installers, dual rollback snapshots, secrets kept out of
-  version control, partial-failure handling so a batch of 50 doesn't die on item 3.
-- **Run parallel workstreams.** I coordinate multiple concurrent projects through a dashboard +
-  intake → triage → graduate pipeline, so nothing stalls and nothing gets silently dropped.
-- **Decide on trade-offs, not preferences.** Every non-obvious choice has a documented *why*.
+I ship in tight loops: feature branch to staging to live, code review before anything merges, and
+tests written first on anything that touches money. I'm explicit about risk, so installers are
+idempotent, every run takes a rollback snapshot, secrets stay out of git, and a batch of 50 won't die
+on item 3. I keep several projects moving at once through a dashboard and an
+intake-to-triage-to-graduate pipeline, so nothing stalls and nothing quietly disappears. Every
+non-obvious decision has its reasoning written down.
 
 ---
 
@@ -38,10 +35,10 @@ CS @ Howard University (Class of 2029) · based in the U.S.
 
 | Project | What it is | Why it matters |
 |---|---|---|
-| [opscore](https://github.com/davidajudua/opscore) | An operations core: one shared Node/PM2 runtime powering a fleet of single-purpose Discord ops bots — card distribution, revenue tracking, verification-code retrieval | Platform thinking — shared core, auto-applied migrations, supervised processes, restart-safe interactions — turned into business-anonymous case studies |
-| [LowLatencyToolkit](https://github.com/davidajudua/LowLatencyToolkit) | Modular PowerShell toolkit that applies & **rolls back** Windows performance profiles | Idempotent, dual-safety-net systems automation with a documented reason behind every change |
+| [opscore](https://github.com/davidajudua/opscore) | One shared Node/PM2 runtime that runs a fleet of small, single-purpose Discord ops bots: card distribution, revenue tracking, and verification-code retrieval | Real platform work: a shared core, migrations that apply themselves on boot, supervised processes, and interactions that survive a restart, written up as business-anonymous case studies |
+| [LowLatencyToolkit](https://github.com/davidajudua/LowLatencyToolkit) | A modular PowerShell toolkit that applies and fully rolls back Windows performance profiles | Idempotent systems automation with two independent safety nets and a documented reason behind every change |
 
-*More case studies land here as I bring private operational systems into the open in sanitized form.*
+*More case studies land here as I open up private systems in sanitized form.*
 
 ---
 
@@ -52,5 +49,5 @@ CS @ Howard University (Class of 2029) · based in the U.S.
 
 ### Connect
 
-- Site — [davidajudua.github.io](https://davidajudua.github.io)
-- Reach me through the contact page on the site above.
+- Site: [davidajudua.github.io](https://davidajudua.github.io)
+- Reach me through the contact page there.
