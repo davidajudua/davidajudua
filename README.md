@@ -2,7 +2,7 @@
 
 **I build the software that runs my businesses, then run & scale the businesses on it.**
 
-I'm a founder and engineer. I design and operate production systems start to finish: the backend
+I'm a founder and software developer. I design and operate production systems start to finish: the backend
 services, the payments and operations tooling, the deploy pipeline, and the daily work of keeping all
 of it running. Code, to me, is mostly leverage. The goal is the smallest reliable system that takes a
 manual, error-prone job and makes it run itself.
