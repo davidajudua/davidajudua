@@ -38,11 +38,10 @@ CS @ Howard University (Class of 2029) · based in the U.S.
 
 | Project | What it is | Why it matters |
 |---|---|---|
+| [opscore](https://github.com/davidajudua/opscore) | An operations core: one shared Node/PM2 runtime powering a fleet of single-purpose Discord ops bots — card distribution, revenue tracking, verification-code retrieval | Platform thinking — shared core, auto-applied migrations, supervised processes, restart-safe interactions — turned into business-anonymous case studies |
 | [LowLatencyToolkit](https://github.com/davidajudua/LowLatencyToolkit) | Modular PowerShell toolkit that applies & **rolls back** Windows performance profiles | Idempotent, dual-safety-net systems automation with a documented reason behind every change |
-| [cardslinger](https://github.com/davidajudua/cardslinger) | Discord-native system for issuing single-use cards to a team, one at a time | Reliable distribution with consumption tracking, admin controls, and a full audit log |
 
-*More case studies are in progress as I bring private operational systems into the open in
-sanitized form.*
+*More case studies land here as I bring private operational systems into the open in sanitized form.*
 
 ---
 
