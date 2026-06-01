@@ -1,6 +1,6 @@
 # David Ajudua
 
-**I build the software that runs my businesses, then run the businesses on it.**
+**I build the software that runs my businesses, then run & scale the businesses on it.**
 
 I'm a founder and engineer. I design and operate production systems start to finish: the backend
 services, the payments and operations tooling, the deploy pipeline, and the daily work of keeping all
